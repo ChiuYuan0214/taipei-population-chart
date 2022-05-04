@@ -1,0 +1,23 @@
+.chart {
+  width: 90%;
+  max-width: 60rem;
+  height: 20rem;
+  margin: 5rem 1rem 1rem;
+  display: flex;
+}
+
+.main {
+  position: relative;
+  z-index: 10;
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 900px) {
+.chart {
+  height: 30rem;
+}
+}

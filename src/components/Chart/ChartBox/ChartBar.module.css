@@ -1,0 +1,56 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 30%;
+}
+
+.bar {
+  width: 100%;
+  transition: height .5s ease-in-out;
+  position: relative;
+}
+
+.bar span {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: .8rem;
+  font-weight: bold;
+  color: rgb(125, 14, 14);
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  animation: fade-in .5s ease-in forwards;
+  animation-delay: .5s;
+}
+
+.leftBar {
+  margin-right: 0.5rem;
+}
+
+.leftBar .bar {
+  background-color: rgb(74, 104, 149);
+}
+
+.rightBar .bar {
+  background-color: rgb(235, 102, 124);
+}
+
+@media screen and (min-width: 800px) {
+  .container span {
+    font-size: 1.2rem;
+    top: -30px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

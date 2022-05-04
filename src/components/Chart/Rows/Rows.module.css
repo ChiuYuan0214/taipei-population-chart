@@ -1,0 +1,16 @@
+.container {
+  height: 100%;
+  width: 10%;
+}
+
+.number {
+  position: relative;
+  top: -6px;
+  right: 5px;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.lastNumber {
+  vertical-align: bottom;
+}
