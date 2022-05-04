@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/taipei-population-chart/static/css/main.0b886609.css",
+    "main.js": "/taipei-population-chart/static/js/main.a9d800a5.js",
+    "static/js/787.43c7381c.chunk.js": "/taipei-population-chart/static/js/787.43c7381c.chunk.js",
+    "static/media/taipeilogo.png": "/taipei-population-chart/static/media/taipeilogo.485cc5d8643acb6500df.png",
+    "index.html": "/taipei-population-chart/index.html",
+    "main.0b886609.css.map": "/taipei-population-chart/static/css/main.0b886609.css.map",
+    "main.a9d800a5.js.map": "/taipei-population-chart/static/js/main.a9d800a5.js.map",
+    "787.43c7381c.chunk.js.map": "/taipei-population-chart/static/js/787.43c7381c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b886609.css",
+    "static/js/main.a9d800a5.js"
+  ]
+}
